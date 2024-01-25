@@ -1,5 +1,19 @@
 .score {
-  padding: 20px;
-  background-color: transparent;
-  border: 2px solid;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--Score-Text);
+  background-color: white;
+  padding: 5px 20px;
+  border-radius: 0.5rem;
+}
+
+.score-label {
+  font-size: 0.9rem;
+}
+
+.score-value {
+  font-size: 40px;
+  color: var(--Dark-Text);
 }

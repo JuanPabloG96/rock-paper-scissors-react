@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid var(--Header-Outline);
+  border-radius: 0.5rem;
+  padding: 20px;
+}
+
+.title {
+  width: 30%;
+  text-align: left;
+  text-wrap: balance;
+  text-transform: uppercase;
+  line-height: 14px;
+  font-size: 18px;
+  font-weight: 700;
+}
