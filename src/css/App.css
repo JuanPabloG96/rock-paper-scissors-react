@@ -17,3 +17,43 @@
   font-size: 18px;
   font-weight: 700;
 }
+
+.game-field {
+  margin: 0 auto;
+  position: relative;
+
+  height: 180px;
+  width: 180px;
+  background-image: url(images/bg-pentagon.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
+.footer {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.btn {
+  text-transform: uppercase;
+  padding: 8px 24px;
+  color: var(--White);
+  background-color: transparent;
+  border: solid 2px var(--Header-Outline);
+  border-radius: 0.5rem;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: 3px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.btn:active {
+  transform: scale(0.9);
+}

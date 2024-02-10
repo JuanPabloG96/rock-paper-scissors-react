@@ -1,0 +1,54 @@
+.tile {
+  display: grid;
+  place-items: center;
+  width: 85px;
+  height: 85px;
+  border-radius: 100%;
+  box-shadow: inset 0 -5px var(--Inset-Shadow);
+  position: absolute;
+  transition: transform 0.3s;
+}
+
+.tile:hover {
+  transform: scale(1.1);
+}
+
+#rock_picture {
+  background: linear-gradient(to bottom, var(--Rock-Gradient));
+  bottom: -40px;
+  right: -10px;
+}
+
+#paper_picture {
+  background: linear-gradient(to bottom, var(--Paper-Gradient));
+  top: 25px;
+  right: -42px;
+}
+
+#scissors_picture {
+  background: linear-gradient(to bottom, var(--Scissors-Gradient));
+  top: -42px;
+  left: calc(50% - 42px);
+}
+
+#lizard_picture {
+  background: linear-gradient(to bottom, var(--Lizard-Gradient));
+  bottom: -42px;
+  left: -10px;
+}
+
+#spock_picture {
+  background: linear-gradient(to bottom, var(--Spock-Gradient));
+  top: 25px;
+  left: -42px;
+}
+
+.tile img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  background-color: var(--White);
+  box-shadow: inset 0 5px var(--Inset-Shadow);
+  border-radius: 100%;
+  padding: 10px;
+}
