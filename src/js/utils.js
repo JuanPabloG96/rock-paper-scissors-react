@@ -7,3 +7,7 @@ export function decreaseScore ({ actualScore, setActualScore }) {
     setActualScore(actualScore - 1)
   }
 }
+
+export function manageModal (modal) {
+  modal.classList.toggle('.show-modal')
+}
